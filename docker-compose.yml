@@ -45,7 +45,7 @@ services:
     networks:
       front:
         aliases:
-          - "${DOCKER_DEV_DOMAIN:-project.test}"
+          - "${DOCKER_DEV_DOMAIN:-corpcenter.dev}"
     volumes:
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
 
